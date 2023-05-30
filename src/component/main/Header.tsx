@@ -18,7 +18,7 @@ const Header: React.FC = () => {
           <button onClick={onClickToggleModal}>회원가입</button>
         </div>
       </div>
-      {isModalOpen && <Modal onClickToggleModal={onClickToggleModal}>나와라짜식아</Modal>}
+      {isModalOpen && <Modal onClickToggleModal={onClickToggleModal}>나와라짜식아제발나와라</Modal>}
     </div>
   )
 }
