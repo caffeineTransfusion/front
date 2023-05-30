@@ -1,0 +1,29 @@
+$brown: rgba(98, 44, 44, 0.58);
+
+.headerContainer {
+  width: 1920px;
+  height: 108px;
+  background-color: $brown
+}
+
+.headerWrap{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerButtonWrap{
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+  button{
+    color: white;
+    background-color: transparent;
+    border: none
+  }
+}

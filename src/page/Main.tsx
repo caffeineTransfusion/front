@@ -1,8 +1,10 @@
 import { PostList } from '../component'
+import Header from '../component/main/Header'
 
 const Main: React.FC = () => {
   return (
     <div>
+      <Header />
       <h1>하이</h1>
       <span>헬로우</span>
       <PostList />
