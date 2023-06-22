@@ -1,4 +1,5 @@
-import { PostList } from '../component'
+import { PostList } from "../component"
+
 
 const Main: React.FC = () => {
   return (
