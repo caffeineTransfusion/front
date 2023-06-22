@@ -4,11 +4,9 @@ import DefaultLayout from './assets/styles/DefaultLayout'
 
 function App() {
   return (
-    <RecoilRoot>
-      <DefaultLayout>
-        <Router />
-      </DefaultLayout>
-    </RecoilRoot>
+    <DefaultLayout>
+      <Router />
+    </DefaultLayout>
   )
 }
 
