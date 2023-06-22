@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import '../../styles/main/Modal.scss'
+import '../../assets/styles/common/Modal.scss'
 import { ModalProps } from '../../types/commonTypes'
 
 const Modal: React.FC<ModalProps> = ({ onClickToggleModal, children }) => {
