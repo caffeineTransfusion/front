@@ -1,5 +1,5 @@
 import { PostList } from '../component'
-import Header from '../component/main/Header'
+import Header from '../component/common/Header'
 
 const Main: React.FC = () => {
   return (

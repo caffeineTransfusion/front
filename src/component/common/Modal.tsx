@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import '../../styles/main/Modal.scss'
+import '../../styles/common/Modal.scss'
 
 interface ModalProps {
   onClickToggleModal: () => void
