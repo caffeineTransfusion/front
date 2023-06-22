@@ -1,3 +1,4 @@
+import '../styles/Normalize.css'
 import { Header } from "../../component"
 
 interface Props {

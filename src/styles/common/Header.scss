@@ -1,9 +1,22 @@
 $brown: rgba(98, 44, 44, 0.58);
 
 .headerContainer {
-  width: 1920px;
-  height: 108px;
-  background-color: $brown
+  width: 100%;
+  height: 100px;
+  background-color: $brown;
+
+}
+@media (max-width: 1600px) {
+  .headerContainer {
+    width: 100%;
+    height: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .headerContainer {
+    width: 100%;
+    height: 100px;
+  }
 }
 
 .headerWrap{

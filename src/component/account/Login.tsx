@@ -1,24 +1,36 @@
-import React from 'react'
-import '../../styles/main/Login.scss'
+import React, { useRef, useState } from 'react'
+import '../../styles/account/Login.scss'
 
 const Login: React.FC = () => {
+  const [userId, setUserId] = useState('')
+  const [userPw, setUserPw] = useState('')
+
+  const userIdHandle = () => {}
+
   return (
     <div className="logInContainer">
       <div className="loginWrap">
-        <div className="logInTitle">
+        <div className="loginTitle">
           <h3>LogIn</h3>
         </div>
-        <div className="inputContainer">
+        <form className="inputContainer">
           <div>
-            <span>아이디</span>
-            <input type="text" />
+            <label htmlFor="userId">아이디</label>
+            <input id="userId" type="text" value={userId} onChange={userIdHandle} />
           </div>
           <div>
-            <span>패스워드</span>
-            <input type="password" />
+            <label htmlFor="userPw">패스워드</label>
+            <input id="userPw" type="password" value={userPw} />
           </div>
+          <div className="buttonContainer">
+            <button>로그인</button>
+          </div>
+        </form>
+        <div className="socialBottonContainer">
+          <button>구글</button>
+          <button>카카오</button>
+          <button>네이버</button>
         </div>
-        <button>닫기</button>
       </div>
     </div>
   )

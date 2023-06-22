@@ -1,6 +1,5 @@
 import { PostList } from "../component"
 
-
 const Main: React.FC = () => {
   return (
     <div>
