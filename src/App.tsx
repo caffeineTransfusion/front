@@ -1,3 +1,4 @@
+import { RecoilRoot } from 'recoil'
 import Router from './Router'
 import DefaultLayout from './assets/styles/DefaultLayout'
 

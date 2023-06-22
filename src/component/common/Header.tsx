@@ -1,8 +1,6 @@
 import React, { useState, useCallback } from 'react'
-import '../../styles/common/Header.scss'
-import Modal from './Modal'
-import Login from '../account/Login'
-import SignUp from '../account/SignUp'
+import '../../styles/main/Header.scss'
+import { Modal, Login, SignUp} from '../../component'
 
 const Header: React.FC = () => {
   const [isModalOpen, setModalOpen] = useState<boolean>(false)
