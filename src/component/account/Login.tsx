@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import '../../styles/account/Login.scss'
+import '../../assets/styles/account/Login.scss'
 
 const Login: React.FC = () => {
   const [userId, setUserId] = useState('')

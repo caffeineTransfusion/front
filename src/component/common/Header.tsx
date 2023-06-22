@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import '../../styles/main/Header.scss'
+import '../../assets/styles/common/Header.scss'
 import { Modal, Login, SignUp} from '../../component'
 
 const Header: React.FC = () => {
